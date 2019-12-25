@@ -21,7 +21,7 @@ collections:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post" }
           - { label: "What's it called?", name: "title", widget: "string" }
           - { label: "Who Brewed it?", name: "brewery", widget: "string" }
-          - { label: "What Style?", name: "tags", widget: "string" }
+          - { label: "What Style?", name: "style", widget: "string" }
           - { label: "Show us ya pics!", name: "featuredimage", widget: image }
           - { label: "Featured Post", name: "featuredpost", widget: "boolean", required: false }
           - { label: "How good is it?", name: "howGood", widget: "select", options: ["good", "bloody good", "sell your grandmothers kidneys for one single drop more"] }
